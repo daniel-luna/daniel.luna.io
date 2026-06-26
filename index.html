@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Daniel Luna Camps — Desarrollador Senior & Arquitecto de Soluciones. 25+ años en software, integración, automatización e IA aplicada al negocio.">
+  <title>Daniel Luna Camps — Desarrollador Senior & Arquitecto de Soluciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo">DLC</a>
+      <nav class="header__nav" id="main-nav" aria-label="Navegación principal">
+        <button class="header__toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="header__links">
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#resumen">Perfil</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#especializacion">Especialización</a></li>
+          <li><a href="#formacion">Formación</a></li>
+          <li><a href="#certificaciones">Certificaciones</a></li>
+          <li><a href="#competencias">Competencias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greeting">Hola, soy</p>
+          <h1 class="hero__name">Daniel Luna Camps</h1>
+          <p class="hero__title">Desarrollador Senior <span class="hero__title-sep">·</span> Arquitecto de Soluciones</p>
+          <p class="hero__subtitle">25+ años construyendo software, integraciones, automatización e IA aplicada al negocio. Especializado en backend, arquitecturas de integración, cloud e inteligencia artificial.</p>
+          <div class="hero__contact">
+            <a href="tel:649785775" class="hero__contact-link">649 785 775</a>
+            <a href="mailto:daniel.luna.camps@gmail.com" class="hero__contact-link">daniel.luna.camps@gmail.com</a>
+            <span class="hero__contact-link">Sant Cugat del Vallès (Barcelona)</span>
+          </div>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">Contactar</a>
+            <a href="#experiencia" class="btn btn--outline">Ver experiencia</a>
+          </div>
+          <div class="hero__badges">
+            <span class="badge">25+ años</span>
+            <span class="badge">Backend</span>
+            <span class="badge">Arquitectura</span>
+            <span class="badge">Integraciones</span>
+            <span class="badge">IA</span>
+            <span class="badge">Automatización</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Desplázate</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><path d="M8 0v16M2 10l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </section>
+
+    <!-- ===== RESUMEN PROFESIONAL ===== -->
+    <section class="section" id="resumen">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Perfil</p>
+          <h2 class="section__title">Resumen Profesional</h2>
+        </div>
+        <div class="resumen__grid">
+          <div class="resumen__text reveal">
+            <p>Desarrollador Senior y Arquitecto de Soluciones con más de <strong>25 años de experiencia</strong> en desarrollo de software, integración de sistemas, automatización de procesos e implantación de soluciones empresariales.</p>
+            <p>Especializado en tecnologías <strong>backend</strong>, arquitecturas de integración, plataformas <strong>cloud</strong>, <strong>inteligencia artificial</strong> aplicada al negocio y desarrollo de productos digitales. Experiencia liderando proyectos desde la definición funcional hasta la puesta en producción, colaborando directamente con clientes, equipos técnicos y áreas de negocio.</p>
+          </div>
+          <div class="resumen__stats reveal">
+            <div class="stat-card">
+              <span class="stat-card__number">25+</span>
+              <span class="stat-card__label">Años de experiencia</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__number">4</span>
+              <span class="stat-card__label">Empresas tecnológicas</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__number">30+</span>
+              <span class="stat-card__label">Tecnologías dominadas</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__number">End-to-End</span>
+              <span class="stat-card__label">Entrega completa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STACK PRINCIPAL ===== -->
+    <section class="section section--dark" id="stack">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Tecnologías</p>
+          <h2 class="section__title">Stack Principal</h2>
+        </div>
+        <div class="stack__grid">
+          <span class="chip">PHP / Symfony</span>
+          <span class="chip">Angular</span>
+          <span class="chip">Docker</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">Python / FastAPI</span>
+          <span class="chip">RabbitMQ</span>
+          <span class="chip">n8n</span>
+          <span class="chip">APIs REST</span>
+          <span class="chip">AWS S3</span>
+          <span class="chip">IBM Watson</span>
+          <span class="chip">IA Generativa</span>
+          <span class="chip">Automatización de procesos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCIA ===== -->
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Trayectoria</p>
+          <h2 class="section__title">Experiencia Profesional</h2>
+        </div>
+
+        <div class="timeline">
+
+          <!-- MediaData -->
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card card card--featured">
+              <div class="card__meta">
+                <span class="card__date">2023 — Actualidad</span>
+                <span class="card__company">MediaData</span>
+              </div>
+              <h3 class="card__role">Desarrollador Senior</h3>
+              <p class="card__desc">Responsable de la evolución funcional y técnica de una plataforma empresarial para la gestión de programación televisiva y contenido VoD, participando en todo el ciclo de desarrollo: análisis de requisitos, diseño de soluciones, implementación, despliegue y mantenimiento.</p>
+              <div class="card__tags">
+                <span class="chip chip--sm">PHP</span>
+                <span class="chip chip--sm">Symfony</span>
+                <span class="chip chip--sm">Angular</span>
+                <span class="chip chip--sm">Docker</span>
+                <span class="chip chip--sm">MySQL</span>
+                <span class="chip chip--sm">Redis</span>
+                <span class="chip chip--sm">RabbitMQ</span>
+                <span class="chip chip--sm">Python</span>
+                <span class="chip chip--sm">n8n</span>
+              </div>
+              <div class="card__projects">
+                <div class="project-group">
+                  <h4 class="project-group__title">Automatización de procesos de negocio</h4>
+                  <ul class="project-group__list">
+                    <li>Diseño e implementación de soluciones de automatización mediante n8n para la transformación y validación de información EPG.</li>
+                    <li>Colaboración con clientes en la definición de requisitos, validación funcional y desarrollo de pruebas de concepto.</li>
+                    <li>Desarrollo de flujos automatizados para la recepción de datos por correo electrónico, validación de contenidos, generación de archivos finales y distribución mediante correo electrónico, Google Drive y Amazon S3.</li>
+                    <li>Reducción de tareas manuales y mejora de la eficiencia operativa mediante la automatización de procesos recurrentes.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Integración e importación de datos</h4>
+                  <ul class="project-group__list">
+                    <li>Desarrollo de nuevos sistemas de importación para integrar parrillas de programación procedentes de múltiples formatos (TXT, CSV, Excel, Word, JSON y XML).</li>
+                    <li>Adaptación y transformación de datos para garantizar su correcta integración en la plataforma.</li>
+                    <li>Implementación de validaciones y controles de calidad sobre la información importada.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Procesamiento masivo e ingesta de información</h4>
+                  <ul class="project-group__list">
+                    <li>Desarrollo de procesos automatizados de scraping e ingesta de grandes volúmenes de datos procedentes de catálogos externos en formatos JSON y XML.</li>
+                    <li>Implementación de mecanismos de detección de cambios y actualización incremental para optimizar el rendimiento de los procesos.</li>
+                    <li>Automatización de la actualización de bases de datos y distribución de alertas y novedades a equipos editoriales.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Desarrollo y evolución de producto</h4>
+                  <ul class="project-group__list">
+                    <li>Participación activa en la definición funcional de nuevas características junto a responsables de negocio y redacción.</li>
+                    <li>Diseño técnico, desarrollo, pruebas y despliegue de nuevas funcionalidades.</li>
+                    <li>Mantenimiento evolutivo y correctivo de una plataforma utilizada para la gestión y explotación de información audiovisual.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Integración con plataformas externas (EIDR)</h4>
+                  <ul class="project-group__list">
+                    <li>Responsable del análisis técnico e implementación de la integración con la API de EIDR para la identificación y registro de contenido audiovisual.</li>
+                    <li>Desarrollo de funcionalidades de búsqueda, consulta y registro de contenido mediante servicios externos.</li>
+                    <li>Automatización de procesos para minimizar la intervención manual de los usuarios.</li>
+                    <li>Desarrollo de herramientas para la generación masiva de registros mediante archivos bulk adaptados a los formatos requeridos por el proveedor.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Otras contribuciones relevantes</h4>
+                  <ul class="project-group__list">
+                    <li>Mantenimiento y mejora de procesos de web crawling con Symfony y Panther para captura automatizada de información.</li>
+                    <li>Desarrollo de nuevas funcionalidades en librerías corporativas PHP para tratamiento y normalización de datos.</li>
+                    <li>Mejoras en procesos de tratamiento y transformación de imágenes desarrollados en Python.</li>
+                    <li>Evolución de herramientas de exportación de datos basadas en PHP y XSLT.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tridenia -->
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card card card--featured">
+              <div class="card__meta">
+                <span class="card__date">2017 — 2023</span>
+                <span class="card__company">Tridenia</span>
+              </div>
+              <h3 class="card__role">Arquitecto de Soluciones IA / IBM Watson Specialist</h3>
+              <p class="card__desc">Responsable del diseño e implantación de soluciones basadas en inteligencia artificial, automatización e integración de sistemas empresariales. Participación en todas las fases de proyecto: análisis, diseño de arquitectura, coordinación de equipos, desarrollo e implantación, soporte evolutivo y relación directa con clientes.</p>
+              <div class="card__tags">
+                <span class="chip chip--sm">PHP</span>
+                <span class="chip chip--sm">Symfony</span>
+                <span class="chip chip--sm">Angular</span>
+                <span class="chip chip--sm">IBM Watson</span>
+                <span class="chip chip--sm">IBM Cloud</span>
+                <span class="chip chip--sm">APIs REST</span>
+                <span class="chip chip--sm">WhatsApp API</span>
+                <span class="chip chip--sm">IA Conversacional</span>
+                <span class="chip chip--sm">NLP</span>
+              </div>
+              <div class="card__projects">
+                <div class="project-group">
+                  <h4 class="project-group__title">Desarrollo de aplicaciones empresariales</h4>
+                  <ul class="project-group__list">
+                    <li>Ecocook (Symfony)</li>
+                    <li>Incidence (API REST + Angular)</li>
+                    <li>Biwel</li>
+                    <li>Papelmatic</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Soluciones WhatsApp Business</h4>
+                  <ul class="project-group__list">
+                    <li>Desarrollo de aplicaciones integradas con WhatsApp Business API (GupShup) para Casa Mas, Maset del Lleó y Brava Fabrics.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Integraciones empresariales</h4>
+                  <ul class="project-group__list">
+                    <li>Sincronización con SAGE.</li>
+                    <li>Integraciones con Salesforce.</li>
+                    <li>Desarrollo de exportaciones e intercambios automáticos de datos.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Asistentes conversacionales e IA</h4>
+                  <ul class="project-group__list">
+                    <li><strong>dmaBot:</strong> Plataforma propia de asistentes virtuales multicanal integrada con Web, Facebook Messenger y WhatsApp. Clientes: Torres, Arag.</li>
+                    <li><strong>Adest Intelligence:</strong> Plataforma de social listening basada en IA para análisis de contenido y monitorización de redes sociales. Clientes: KH7, GLS, Munich.</li>
+                  </ul>
+                </div>
+                <div class="project-group">
+                  <h4 class="project-group__title">Soluciones IBM Watson e IBM Cloud</h4>
+                  <ul class="project-group__list">
+                    <li>Aplicaciones de análisis de personalidad en Instagram.</li>
+                    <li>Clasificación automática de documentación.</li>
+                    <li>Extracción inteligente de información documental.</li>
+                    <li>Despliegues cloud mediante IBM Cloud Foundry y pipelines de integración continua.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Freelance -->
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card card">
+              <div class="card__meta">
+                <span class="card__date">2011 — 2016</span>
+                <span class="card__company">Freelance</span>
+              </div>
+              <h3 class="card__role">Consultor y Desarrollador Freelance</h3>
+              <p class="card__desc">Desarrollo de proyectos web a medida y mantenimiento evolutivo de aplicaciones empresariales. Desarrollo de aplicaciones desde cero, evolución de productos desarrollados por terceros, consultoría técnica e integración de sistemas.</p>
+              <div class="card__tags">
+                <span class="chip chip--sm">PHP</span>
+                <span class="chip chip--sm">Node.js</span>
+                <span class="chip chip--sm">WordPress</span>
+                <span class="chip chip--sm">Magento</span>
+                <span class="chip chip--sm">Prestashop</span>
+                <span class="chip chip--sm">Sencha</span>
+                <span class="chip chip--sm">jQuery</span>
+                <span class="chip chip--sm">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Oasys Soft -->
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card card">
+              <div class="card__meta">
+                <span class="card__date">2000 — 2011</span>
+                <span class="card__company">Oasys Soft</span>
+              </div>
+              <h3 class="card__role">Analista Programador Senior</h3>
+              <p class="card__desc">Participación en proyectos de desarrollo empresarial, soporte técnico, formación e investigación tecnológica. Desarrollo de aplicaciones de gestión, análisis funcional, diseño de componentes reutilizables, portales web empresariales y formación a usuarios.</p>
+              <div class="card__tags">
+                <span class="chip chip--sm">Visual Basic 6</span>
+                <span class="chip chip--sm">SQL Server</span>
+                <span class="chip chip--sm">HTML</span>
+                <span class="chip chip--sm">JavaScript</span>
+                <span class="chip chip--sm">AJAX</span>
+                <span class="chip chip--sm">jQuery</span>
+                <span class="chip chip--sm">ExtJS</span>
+                <span class="chip chip--sm">eBD</span>
+              </div>
+              <div class="card__projects">
+                <div class="project-group">
+                  <h4 class="project-group__title">Proyectos destacados</h4>
+                  <ul class="project-group__list">
+                    <li>Sistemas de gestión para USOC.</li>
+                    <li>Soluciones para COACB.</li>
+                    <li>Plataforma de gestión logística para General Óptica.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESPECIALIZACIÓN ===== -->
+    <section class="section section--dark" id="especializacion">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Áreas de impacto</p>
+          <h2 class="section__title">Especialización</h2>
+        </div>
+        <div class="espec__grid">
+
+          <div class="espec__card reveal">
+            <div class="espec__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="espec__title">Arquitectura e Integración</h3>
+            <p class="espec__desc">APIs externas, EIDR, Salesforce, SAGE, importación/exportación de datos, integración multi-formato.</p>
+          </div>
+
+          <div class="espec__card reveal">
+            <div class="espec__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+            </div>
+            <h3 class="espec__title">Automatización de Procesos</h3>
+            <p class="espec__desc">n8n, workflows, validación automática, distribución de ficheros, reducción de tareas manuales.</p>
+          </div>
+
+          <div class="espec__card reveal">
+            <div class="espec__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1010 10"/><path d="M2 12a10 10 0 0110-10"/><path d="M12 12l4-4"/><path d="M12 12l-4 4"/></svg>
+            </div>
+            <h3 class="espec__title">IA Aplicada al Negocio</h3>
+            <p class="espec__desc">IBM Watson, asistentes conversacionales, NLP, clasificación documental, extracción de información, social listening, IA generativa.</p>
+          </div>
+
+          <div class="espec__card reveal">
+            <div class="espec__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3 class="espec__title">Procesamiento e Ingesta de Datos</h3>
+            <p class="espec__desc">Scraping, crawling, XML/JSON, actualización incremental, validación y normalización de datos.</p>
+          </div>
+
+          <div class="espec__card reveal">
+            <div class="espec__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="espec__title">Desarrollo de Producto</h3>
+            <p class="espec__desc">Definición funcional, diseño técnico, desarrollo, despliegue, mantenimiento evolutivo, trabajo con negocio y cliente.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORMACIÓN ===== -->
+    <section class="section" id="formacion">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Estudios</p>
+          <h2 class="section__title">Formación Académica</h2>
+        </div>
+        <div class="formacion__grid">
+          <div class="formacion__item reveal">
+            <div class="formacion__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+            </div>
+            <h3 class="formacion__title">Ingeniería Técnica en Informática de Gestión</h3>
+            <p class="formacion__center">Escola Universitària Politècnica de Vilanova i la Geltrú</p>
+          </div>
+          <div class="formacion__item reveal">
+            <div class="formacion__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+            </div>
+            <h3 class="formacion__title">CFGS Informática de Gestión</h3>
+            <p class="formacion__center">Sant Ignasi de Sarrià</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICACIONES ===== -->
+    <section class="section section--dark" id="certificaciones">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Acreditaciones</p>
+          <h2 class="section__title">Certificaciones y Formación Continua</h2>
+        </div>
+        <div class="certs__grid">
+          <span class="cert__chip">Certificaciones IBM Watson</span>
+          <span class="cert__chip">Watson Studio Essentials</span>
+          <span class="cert__chip">Build Chatbots with Watson Conversation</span>
+          <span class="cert__chip">Data Science Foundations</span>
+          <span class="cert__chip">Data Science for Business</span>
+          <span class="cert__chip">Watson Analytics</span>
+          <span class="cert__chip">Business Intelligence y Data Mining</span>
+          <span class="cert__chip">SQL Server</span>
+          <span class="cert__chip">Docker y despliegue de aplicaciones</span>
+          <span class="cert__chip">Desarrollo Web</span>
+          <span class="cert__chip">.NET</span>
+          <span class="cert__chip">Formación continua en IA, Data Science y cloud</span>
+          <span class="cert__chip">Actualmente ampliando conocimientos en React</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMPETENCIAS TÉCNICAS ===== -->
+    <section class="section" id="competencias">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Habilidades</p>
+          <h2 class="section__title">Competencias Técnicas</h2>
+        </div>
+        <div class="comp__grid">
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">Backend</h3>
+            <div class="comp__chips">
+              <span class="chip">PHP</span>
+              <span class="chip">Symfony</span>
+              <span class="chip">Yii</span>
+              <span class="chip">Slim</span>
+              <span class="chip">Python</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">Visual Basic 6</span>
+            </div>
+          </div>
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">Frontend</h3>
+            <div class="comp__chips">
+              <span class="chip">Angular</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">jQuery</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">ExtJS</span>
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+            </div>
+          </div>
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">Bases de Datos</h3>
+            <div class="comp__chips">
+              <span class="chip">MySQL</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">SQL Server</span>
+            </div>
+          </div>
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">DevOps y Automatización</h3>
+            <div class="comp__chips">
+              <span class="chip">Docker</span>
+              <span class="chip">n8n</span>
+              <span class="chip">RabbitMQ</span>
+              <span class="chip">AWS S3</span>
+              <span class="chip">CI/CD</span>
+            </div>
+          </div>
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">Plataformas</h3>
+            <div class="comp__chips">
+              <span class="chip">IBM Watson</span>
+              <span class="chip">IBM Cloud</span>
+              <span class="chip">Prestashop</span>
+              <span class="chip">Magento</span>
+              <span class="chip">WordPress</span>
+            </div>
+          </div>
+
+          <div class="comp__group reveal">
+            <h3 class="comp__group-title">Integraciones</h3>
+            <div class="comp__chips">
+              <span class="chip">APIs REST</span>
+              <span class="chip">WhatsApp Business API</span>
+              <span class="chip">Salesforce</span>
+              <span class="chip">SAGE</span>
+              <span class="chip">EIDR</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== IDIOMAS ===== -->
+    <section class="section section--dark section--sm" id="idiomas">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Lenguas</p>
+          <h2 class="section__title">Idiomas</h2>
+        </div>
+        <div class="idiomas__grid">
+          <div class="idioma__item reveal">
+            <span class="idioma__name">Catalán</span>
+            <span class="idioma__level">Nativo</span>
+          </div>
+          <div class="idioma__item reveal">
+            <span class="idioma__name">Castellano</span>
+            <span class="idioma__level">Nativo</span>
+          </div>
+          <div class="idioma__item reveal">
+            <span class="idioma__name">Inglés</span>
+            <div class="idioma__bar">
+              <div class="idioma__bar-fill" style="width: 55%"></div>
+            </div>
+            <span class="idioma__level">Intermedio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">Conectemos</p>
+        <h2 class="section__title">Contacto</h2>
+      </div>
+      <div class="contacto__inner reveal">
+        <p class="contacto__intro">Disponible para proyectos de arquitectura, desarrollo, automatización e IA aplicada al negocio.</p>
+        <div class="contacto__details">
+          <div class="contacto__item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:649785775">649 785 775</a>
+          </div>
+          <div class="contacto__item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:daniel.luna.camps@gmail.com">daniel.luna.camps@gmail.com</a>
+          </div>
+          <div class="contacto__item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Sant Cugat del Vallès (Barcelona)</span>
+          </div>
+        </div>
+        <a href="mailto:daniel.luna.camps@gmail.com" class="btn btn--primary btn--lg">Enviar mensaje</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>&copy; 2026 Daniel Luna Camps</span>
+      <span>Desarrollado con HTML, CSS y JavaScript vanilla</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
